@@ -1,5 +1,7 @@
 # PowerPoint Text Extractor
 
+📊 A Python CLI tool that extracts text from PowerPoint presentations and exports it to CSV format. Perfect for content analysis, text mining, and presentation archiving.
+
 A simple command-line tool to extract text content from PowerPoint presentations (.pptx/.ppt files) and save it to CSV format.
 
 ## Features
@@ -20,12 +22,12 @@ pip install python-pptx
 ## Usage
 
 ```bash
-python pptx-to-text.py <path_to_powerpoint_file>
+python pptx-to-csv.py <path_to_powerpoint_file>
 ```
 
 Example:
 ```bash
-python pptx-to-text.py presentation.pptx
+python pptx-to-csv.py presentation.pptx
 ```
 
 This will create a CSV file named `presentation.csv` in the same directory as your input file.
